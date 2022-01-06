@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+   
+    <title>Student</title>
+    <style>
+        body{
+            background-color: whitesmoke;
+            font-family: 'Kalam', cursive;
+        }
+        #mother{
+            width: 100%;
+            font-size: 20px;
+        
+        
+        }
+        main{
+            float:right;
+            border: 2px solid gray;
+            padding: 6px;
+        }
+        input{
+            padding: 4px;
+            border: 2px solid black;
+            text-align: center;
+            font-size:15px;
+            font-family: 'Kalam', cursive;
+        }
+        aside{
+            text-align: center;
+            width: 300px;
+            float: left;
+            border: 2px solid black;
+            padding: 20px;
+            font-size: 30px;
+            background-color: silver;
+            color: white;
+        }
+        #tbl{
+            width: 870px;
+            font-size: 25px;
+        }
+        #tbl th{
+            background-color: silver;
+            font-size:20px;
+            padding: 15px;
+        }
+        aside button{
+           width: 170px;
+           padding: 8px;
+           margin-top: 7px;
+           background-color: silver;
+           font-size: 20px;
+           font-weight: bold;
+        
+        }
+        aside button:hover{
+            background-color: white;
+        }
+        
+        
+            </style>
+<body dir='ltr'>
+    <div id='mother'>
+    <from method='POST'>
+        <!--لوحه التحكم -->
+        <aside>
+            <div id='div'>
+                <img src='https://www.nicepng.com/png/detail/118-1188735_download-student-girl.png' alt='logo' width='200'>
+                <h3>admin panel</h3>
+                <label>Student ID :</label><br>
+
+                <input type='text' name='id' id='id'><br>
+
+                <label>Student's name :</label><br>
+
+                <input type='text' name='name' id='name'><br>
+                <label>Student's address :</label><br>
+
+                <input type='text' name='address' id='address'> <br><br>
+                <button name='add'> Add a Student</button>
+
+                <button name='del'>Delete Student</button>
+              </div>
+        </aside>
+<!--عرض بينات الطلاب-->
+ <main>
+     <table id='tbl'>
+<tr>
+
+<th>seriel number</th>
+<th>Student's name</th>
+<th>Student's address</th>
+</tr>
+
+
+
+
+
+     </table>
+ </main>
+</form>
+</div>
+</body>
+</html>
